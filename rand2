@@ -1,0 +1,9 @@
+a = int(input("yek adad baraye a entekhab konid : "))
+b = int(input("yek adad baraye b entekhab konid ke ba a hadeaqal 2 ta fasele dashte bashe : "))
+c = []
+aa = min(a,b)
+bb = max(a,b)
+for i in range(aa,bb) :
+  if i % 2 == 0
+     c = c + [i]
+print(rand2.choice(c))
