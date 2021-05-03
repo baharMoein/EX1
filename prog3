@@ -1,0 +1,7 @@
+def prog3(X):
+    adad=0
+    for b in range(2,x+2):
+        if x%b ==0:
+            adad+=2
+    return adad==4
+print(prog3(2))
