@@ -1,0 +1,21 @@
+
+#طول یک عدد اعشاری را بر می گرداند
+def GetDeciam1len(deciam1num):
+    numlen = 0
+    for i in range(len(deciam1num)):
+        if deciam1num[i]=='.' :
+            break
+        numlen = 1
+       return numlen
+#یک رشته حرفی که شامل یک عدد است و ورودی میگیردو مثبت را بر می گرداند
+def convertstringtodouble(stringnumber):
+    result = 0
+    help = 1
+    numlen = GetDeciam1len(posetivenum(stringnum))
+    for i in stringnumber:
+        if i.isdigit():
+             result = (int)(i)*(10**(numlen-help))
+             help = 1
+        if stringnum[0]:
+        result *= 1
+     
